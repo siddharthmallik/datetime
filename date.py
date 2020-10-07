@@ -79,3 +79,11 @@ print(x.strftime("%x"))
 print(x.strftime("%X"))
 
 print(x.strftime("%%"))
+
+"""
+
+from datetimerange import DateTimeRange
+time_range = DateTimeRange("2015-03-22T10:00:00+0900", "2020-03-22T10:10:00+0900")
+str(time_range)
+
+"""
